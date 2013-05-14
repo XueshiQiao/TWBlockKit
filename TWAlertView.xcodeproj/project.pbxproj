@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D896DDDC1742774B00766321 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D896DDDB1742774B00766321 /* UIKit.framework */; };
+		D896DDDE1742774B00766321 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D896DDDD1742774B00766321 /* Foundation.framework */; };
+		D896DDE01742774B00766321 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D896DDDF1742774B00766321 /* CoreGraphics.framework */; };
+		D896DDE61742774B00766321 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D896DDE41742774B00766321 /* InfoPlist.strings */; };
+		D896DDE81742774B00766321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D896DDE71742774B00766321 /* main.m */; };
+		D896DDEC1742774B00766321 /* TWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D896DDEB1742774B00766321 /* TWAppDelegate.m */; };
+		D896DDEE1742774B00766321 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D896DDED1742774B00766321 /* Default.png */; };
+		D896DDF01742774C00766321 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D896DDEF1742774C00766321 /* Default@2x.png */; };
+		D896DDF21742774C00766321 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D896DDF11742774C00766321 /* Default-568h@2x.png */; };
+		D896DDF51742774C00766321 /* TWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D896DDF41742774C00766321 /* TWViewController.m */; };
+		D896DDF81742774C00766321 /* TWViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D896DDF61742774C00766321 /* TWViewController_iPhone.xib */; };
+		D896DDFB1742774C00766321 /* TWViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D896DDF91742774C00766321 /* TWViewController_iPad.xib */; };
+		D896DE031742780B00766321 /* TWAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = D896DE021742780B00766321 /* TWAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D896DDD81742774B00766321 /* TWAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D896DDDB1742774B00766321 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D896DDDD1742774B00766321 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D896DDDF1742774B00766321 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D896DDE31742774B00766321 /* TWAlertView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TWAlertView-Info.plist"; sourceTree = "<group>"; };
+		D896DDE51742774B00766321 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D896DDE71742774B00766321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D896DDE91742774B00766321 /* TWAlertView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWAlertView-Prefix.pch"; sourceTree = "<group>"; };
+		D896DDEA1742774B00766321 /* TWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWAppDelegate.h; sourceTree = "<group>"; };
+		D896DDEB1742774B00766321 /* TWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWAppDelegate.m; sourceTree = "<group>"; };
+		D896DDED1742774B00766321 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D896DDEF1742774C00766321 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D896DDF11742774C00766321 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D896DDF31742774C00766321 /* TWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWViewController.h; sourceTree = "<group>"; };
+		D896DDF41742774C00766321 /* TWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWViewController.m; sourceTree = "<group>"; };
+		D896DDF71742774C00766321 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWViewController_iPhone.xib; sourceTree = "<group>"; };
+		D896DDFA1742774C00766321 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TWViewController_iPad.xib; sourceTree = "<group>"; };
+		D896DE011742780B00766321 /* TWAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWAlertView.h; sourceTree = "<group>"; };
+		D896DE021742780B00766321 /* TWAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWAlertView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D896DDD51742774B00766321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D896DDDC1742774B00766321 /* UIKit.framework in Frameworks */,
+				D896DDDE1742774B00766321 /* Foundation.framework in Frameworks */,
+				D896DDE01742774B00766321 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D896DDCF1742774A00766321 = {
+			isa = PBXGroup;
+			children = (
+				D896DDE11742774B00766321 /* TWAlertView */,
+				D896DDDA1742774B00766321 /* Frameworks */,
+				D896DDD91742774B00766321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D896DDD91742774B00766321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D896DDD81742774B00766321 /* TWAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D896DDDA1742774B00766321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D896DDDB1742774B00766321 /* UIKit.framework */,
+				D896DDDD1742774B00766321 /* Foundation.framework */,
+				D896DDDF1742774B00766321 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D896DDE11742774B00766321 /* TWAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				D896DE0517428C4F00766321 /* Demo */,
+				D896DE0417428B5500766321 /* TWBlockKit */,
+				D896DDE21742774B00766321 /* Supporting Files */,
+			);
+			path = TWAlertView;
+			sourceTree = "<group>";
+		};
+		D896DDE21742774B00766321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D896DDE31742774B00766321 /* TWAlertView-Info.plist */,
+				D896DDE41742774B00766321 /* InfoPlist.strings */,
+				D896DDE71742774B00766321 /* main.m */,
+				D896DDE91742774B00766321 /* TWAlertView-Prefix.pch */,
+				D896DDED1742774B00766321 /* Default.png */,
+				D896DDEF1742774C00766321 /* Default@2x.png */,
+				D896DDF11742774C00766321 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D896DE0417428B5500766321 /* TWBlockKit */ = {
+			isa = PBXGroup;
+			children = (
+				D896DE011742780B00766321 /* TWAlertView.h */,
+				D896DE021742780B00766321 /* TWAlertView.m */,
+			);
+			name = TWBlockKit;
+			sourceTree = "<group>";
+		};
+		D896DE0517428C4F00766321 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D896DDEA1742774B00766321 /* TWAppDelegate.h */,
+				D896DDEB1742774B00766321 /* TWAppDelegate.m */,
+				D896DDF31742774C00766321 /* TWViewController.h */,
+				D896DDF41742774C00766321 /* TWViewController.m */,
+				D896DDF61742774C00766321 /* TWViewController_iPhone.xib */,
+				D896DDF91742774C00766321 /* TWViewController_iPad.xib */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D896DDD71742774B00766321 /* TWAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D896DDFE1742774C00766321 /* Build configuration list for PBXNativeTarget "TWAlertView" */;
+			buildPhases = (
+				D896DDD41742774B00766321 /* Sources */,
+				D896DDD51742774B00766321 /* Frameworks */,
+				D896DDD61742774B00766321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWAlertView;
+			productName = TWAlertView;
+			productReference = D896DDD81742774B00766321 /* TWAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D896DDD01742774A00766321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TW;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Towords;
+			};
+			buildConfigurationList = D896DDD31742774A00766321 /* Build configuration list for PBXProject "TWAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D896DDCF1742774A00766321;
+			productRefGroup = D896DDD91742774B00766321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D896DDD71742774B00766321 /* TWAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D896DDD61742774B00766321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D896DDE61742774B00766321 /* InfoPlist.strings in Resources */,
+				D896DDEE1742774B00766321 /* Default.png in Resources */,
+				D896DDF01742774C00766321 /* Default@2x.png in Resources */,
+				D896DDF21742774C00766321 /* Default-568h@2x.png in Resources */,
+				D896DDF81742774C00766321 /* TWViewController_iPhone.xib in Resources */,
+				D896DDFB1742774C00766321 /* TWViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D896DDD41742774B00766321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D896DDE81742774B00766321 /* main.m in Sources */,
+				D896DDEC1742774B00766321 /* TWAppDelegate.m in Sources */,
+				D896DDF51742774C00766321 /* TWViewController.m in Sources */,
+				D896DE031742780B00766321 /* TWAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D896DDE41742774B00766321 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D896DDE51742774B00766321 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D896DDF61742774C00766321 /* TWViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D896DDF71742774C00766321 /* en */,
+			);
+			name = TWViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D896DDF91742774C00766321 /* TWViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D896DDFA1742774C00766321 /* en */,
+			);
+			name = TWViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D896DDFC1742774C00766321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D896DDFD1742774C00766321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D896DDFF1742774C00766321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWAlertView/TWAlertView-Prefix.pch";
+				INFOPLIST_FILE = "TWAlertView/TWAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D896DE001742774C00766321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TWAlertView/TWAlertView-Prefix.pch";
+				INFOPLIST_FILE = "TWAlertView/TWAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D896DDD31742774A00766321 /* Build configuration list for PBXProject "TWAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D896DDFC1742774C00766321 /* Debug */,
+				D896DDFD1742774C00766321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D896DDFE1742774C00766321 /* Build configuration list for PBXNativeTarget "TWAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D896DDFF1742774C00766321 /* Debug */,
+				D896DE001742774C00766321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D896DDD01742774A00766321 /* Project object */;
+}
